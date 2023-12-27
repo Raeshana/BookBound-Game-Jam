@@ -45,3 +45,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: River
+    uniqueID: 3900420521
+    locked: 0
+  - name: Ground
+    uniqueID: 3231172191
+    locked: 0
