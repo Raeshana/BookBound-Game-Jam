@@ -94393,7 +94393,7 @@ GameObject:
   - component: {fileID: 1457320839}
   - component: {fileID: 1457320838}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Destination
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95368,11 +95368,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4870828733522137797, guid: e7dd4520bf20d044aaf767f94b31d8c5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 134.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4870828733522137797, guid: e7dd4520bf20d044aaf767f94b31d8c5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4870828733522137797, guid: e7dd4520bf20d044aaf767f94b31d8c5, type: 3}
       propertyPath: m_LocalPosition.z
