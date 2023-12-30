@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class InputManager : MonoBehaviour
 {
     [Header("Scripts")]
@@ -10,6 +11,7 @@ public class InputManager : MonoBehaviour
 
     [Header("Variables")]
     private float _directionX;
+    private bool isFacingRight = true;
 
     [Header("Bools")]
     private bool _isGrounded = false;
@@ -26,6 +28,7 @@ public class InputManager : MonoBehaviour
     {
         PlayerMove();
         PlayerJump();
+        Flip();
     }
 
     private void PlayerMove()
@@ -48,6 +51,17 @@ public class InputManager : MonoBehaviour
         if(collision.gameObject.tag == "Ground")
         {
             _isGrounded = true;
+        }
+    }
+
+    private void Flip()
+    {
+        if (isFacingRight && _directionX < 0f || !isFacingRight && _directionX >0f)
+        {
+            isFacingRight = !isFacingRight;
+            Vector3 localScale = transform.localScale;
+            localScale.x *= -1f;
+            transform.localScale = localScale;
         }
     }
 }

@@ -140,6 +140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving Platform 2-2
       objectReference: {fileID: 0}
+    - target: {fileID: 63269485695720046, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7428849805552824608, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -51.68362
@@ -279,6 +283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving Platform 6-3
       objectReference: {fileID: 0}
+    - target: {fileID: 63269485695720046, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7428849805552824608, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 81.5
@@ -407,7 +415,7 @@ GameObject:
   - component: {fileID: 287800592}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5294,6 +5302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving Platform 4
       objectReference: {fileID: 0}
+    - target: {fileID: 63269485695720046, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7428849805552824608, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.1936188
@@ -5564,6 +5576,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving Platform 3
       objectReference: {fileID: 0}
+    - target: {fileID: 63269485695720046, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7428849805552824608, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -28.96362
@@ -5625,6 +5641,10 @@ PrefabInstance:
     - target: {fileID: 63269485695720046, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
       propertyPath: m_Name
       value: Moving Platform 2-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 63269485695720046, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7428849805552824608, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5769,6 +5789,10 @@ PrefabInstance:
     - target: {fileID: 63269485695720046, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
       propertyPath: m_Name
       value: Moving Platform 2-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 63269485695720046, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7428849805552824608, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -94478,6 +94502,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving Platform 6-2
       objectReference: {fileID: 0}
+    - target: {fileID: 63269485695720046, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7428849805552824608, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 81.5
@@ -94637,6 +94665,10 @@ PrefabInstance:
     - target: {fileID: 63269485695720046, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
       propertyPath: m_Name
       value: Moving Platform 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 63269485695720046, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7428849805552824608, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -95313,6 +95345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving Platform 6-1
       objectReference: {fileID: 0}
+    - target: {fileID: 63269485695720046, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7428849805552824608, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 81.5
@@ -95406,10 +95442,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7063601989214281192, guid: e7dd4520bf20d044aaf767f94b31d8c5, type: 3}
+      propertyPath: jumpForce
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7311600740293117821, guid: e7dd4520bf20d044aaf767f94b31d8c5, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 9203806753420459209, guid: e7dd4520bf20d044aaf767f94b31d8c5, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 84b4245c3183963438574d70b2716c2e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -95429,6 +95473,10 @@ PrefabInstance:
     - target: {fileID: 63269485695720046, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
       propertyPath: m_Name
       value: Moving Platform 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 63269485695720046, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7428849805552824608, guid: 840124aa14df8475f8d820d07b0b74b9, type: 3}
       propertyPath: m_LocalPosition.x
