@@ -21178,7 +21178,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4057728566034842391, guid: e7dd4520bf20d044aaf767f94b31d8c5, type: 3}
       propertyPath: m_GravityScale
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4870828733522137797, guid: e7dd4520bf20d044aaf767f94b31d8c5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21226,7 +21226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7063601989214281192, guid: e7dd4520bf20d044aaf767f94b31d8c5, type: 3}
       propertyPath: jumpForce
-      value: 13
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 7311600740293117821, guid: e7dd4520bf20d044aaf767f94b31d8c5, type: 3}
       propertyPath: m_Name
