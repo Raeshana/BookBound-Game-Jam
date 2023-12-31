@@ -55,3 +55,9 @@ TagManager:
   - name: Pipe
     uniqueID: 3206056753
     locked: 0
+  - name: Middleground
+    uniqueID: 1679514155
+    locked: 0
+  - name: Player
+    uniqueID: 829676117
+    locked: 0

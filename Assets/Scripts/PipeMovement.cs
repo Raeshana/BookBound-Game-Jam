@@ -6,7 +6,7 @@ public class PipeMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
     public float speed;
-    public int direction;
+    public float direction;
     public string type;
 
     private void Start()
