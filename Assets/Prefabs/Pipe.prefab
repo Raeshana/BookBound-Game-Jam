@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7197998676709407696}
   m_Layer: 0
   m_Name: Pipe
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 5803435238719380387}
   m_Layer: 0
   m_Name: Pipe
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

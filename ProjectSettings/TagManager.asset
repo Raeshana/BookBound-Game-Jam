@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - Gobstopper
+  - Obstacles
+  - Destination
   layers:
   - Default
   - TransparentFX

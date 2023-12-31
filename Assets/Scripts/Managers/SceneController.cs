@@ -54,6 +54,12 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
     }
 
+    [ContextMenu("Go to level 1")]
+    public void GoToLevel1()
+    {
+        SceneManager.LoadScene("Level1", LoadSceneMode.Single);
+    }
+
     [ContextMenu("Go to win screen")]
     public void GoToWinScreen()
     {
