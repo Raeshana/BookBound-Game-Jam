@@ -48,6 +48,12 @@ public class SceneController : MonoBehaviour
         Application.Quit();
     }
 
+    [ContextMenu("Go to main menu")]
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+    }
+
     [ContextMenu("Go to win screen")]
     public void GoToWinScreen()
     {
