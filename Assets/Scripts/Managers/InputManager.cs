@@ -12,6 +12,8 @@ public class InputManager : MonoBehaviour
     private float _directionX;
     private bool _isFacingRight = true;
 
+    private Rigidbody2D _rb;
+
     [Header("Bools")]
     private bool _isGrounded = false;
 
@@ -24,14 +26,30 @@ public class InputManager : MonoBehaviour
         _playerMove = GetComponent<Movement>();
         _playerJump = GetComponent<Jump>();
         _playerAnim = GetComponent<Animator>();
+        _rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        StartCoroutine(CheckJump());
         PlayerMove();
         PlayerJump();
         Flip();
+    }
+
+    private IEnumerator CheckJump()
+    {
+        if (_rb.velocity.y == 0) // the player may be either touching ground or at the max jump height
+        {
+
+            yield return new WaitForSeconds(0.1f);
+            if (_rb.velocity.y == 0) // if the player isn't falling anymore i.e. he's on the ground
+            {
+                _isGrounded = true;
+                _playerAnim.SetBool("isJumping", false);
+            }
+        }
     }
 
     private void PlayerMove()
@@ -44,6 +62,7 @@ public class InputManager : MonoBehaviour
         }
         else {
             _playerAnim.SetBool("isRunning", false);
+            _rb.velocity = new Vector2(0, _rb.velocity.y);
         }
     }
 
@@ -59,7 +78,9 @@ public class InputManager : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Ground")
+        //Debug.Log(_isGrounded);
+
+        if (collision.gameObject.tag == "Ground")
         {
             _isGrounded = true;
             _playerAnim.SetBool("isJumping", false);

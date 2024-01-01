@@ -24,7 +24,6 @@ public class PipeMovement : MonoBehaviour
 
     private IEnumerator Vertical()
     {
-        Debug.Log(rb.velocity.y);
         bool running = true;
         while (running)
         {
@@ -39,7 +38,6 @@ public class PipeMovement : MonoBehaviour
 
     private IEnumerator Horizontal()
     {
-        //Debug.Log(rb.velocity.x);
         bool running = true;
         while (running)
         {
